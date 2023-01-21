@@ -28,4 +28,4 @@ Javascript
 
 # 🗿 Link
 
-<a href="https://renankovachich.github.io/Portfolio/">Site</a>
+<a href="https://renankovachich.github.io/Portfolio/" target="_blank" rel=”noopener”>Site</a>
