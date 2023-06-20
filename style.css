@@ -384,6 +384,49 @@ body.dark-theme {
   .filter-tab-active {
     background-color: var(--body-color);
   }
+
+  /*=============== Experiencias =============== */
+  .experiencias__content {
+    row-gap: 3.5rem;
+  }
+  
+  .experiencias__title {
+    font-size: var(--h3-font-size);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .experiencias__box {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+  }
+  
+  .experiencias__group {
+    display: grid;
+    align-content: flex-start;
+    row-gap: 1rem;
+  }
+  
+  .experiencias__data {
+    display: flex;
+    column-gap: .5rem;
+  }
+  
+  .experiencias__data i {
+    font-size: 1rem;
+    color: var(--first-color);
+  }
+  
+  .experiencias__name {
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    line-height: 18px;
+  }
+  
+  .experiencias__level {
+    font-size: var(--smaller-font-size);
+  }
   
   /*=============== FOOTER ===============*/
   .footer__copy {
@@ -434,11 +477,13 @@ body.dark-theme {
   
   @media screen and (min-width: 776px) {
     .projects__content,
-    .skills__content {
+    .skills__content,
+    .experiencias__content {
       grid-template-columns: repeat(2, 332px);
     }
   
-    .skills__content {
+    .skills__content,
+    .experiencias__content {
       justify-content: center;
       column-gap: 3rem;
     }
@@ -485,7 +530,8 @@ body.dark-theme {
       padding: 1.5rem;
     }
   
-    .skills__title {
+    .skills__title,
+    .experiencias__title {
       font-size: var(--normal-font-size);
       margin-bottom: 2.5rem;
     }
